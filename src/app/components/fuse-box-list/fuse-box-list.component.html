@@ -1,0 +1,10 @@
+<p>fuse-box-list works!</p>
+
+<app-fuse-box></app-fuse-box>
+
+<div *ngFor="let box of fuseBoxes | async">
+    <div>
+        Fuse box {{box.id}}: {{box.name}}
+    </div>
+</div>
+<button (click)="createFuseBox()">Add Fuse Box</button>
