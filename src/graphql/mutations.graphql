@@ -1,0 +1,184 @@
+# this is an auto generated file. This will be overwritten
+mutation CreateFuseBox(
+  $input: CreateFuseBoxInput!
+  $condition: ModelFuseBoxConditionInput
+) {
+  createFuseBox(input: $input, condition: $condition) {
+    id
+    name
+    description
+    ownerId
+    rows
+    fuses {
+      id
+      active
+      label
+      type
+      fuseBox {
+        id
+        name
+        description
+        ownerId
+        rows
+        createdAt
+        updatedAt
+      }
+      createdAt
+      updatedAt
+    }
+    createdAt
+    updatedAt
+  }
+}
+mutation UpdateFuseBox(
+  $input: UpdateFuseBoxInput!
+  $condition: ModelFuseBoxConditionInput
+) {
+  updateFuseBox(input: $input, condition: $condition) {
+    id
+    name
+    description
+    ownerId
+    rows
+    fuses {
+      id
+      active
+      label
+      type
+      fuseBox {
+        id
+        name
+        description
+        ownerId
+        rows
+        createdAt
+        updatedAt
+      }
+      createdAt
+      updatedAt
+    }
+    createdAt
+    updatedAt
+  }
+}
+mutation DeleteFuseBox(
+  $input: DeleteFuseBoxInput!
+  $condition: ModelFuseBoxConditionInput
+) {
+  deleteFuseBox(input: $input, condition: $condition) {
+    id
+    name
+    description
+    ownerId
+    rows
+    fuses {
+      id
+      active
+      label
+      type
+      fuseBox {
+        id
+        name
+        description
+        ownerId
+        rows
+        createdAt
+        updatedAt
+      }
+      createdAt
+      updatedAt
+    }
+    createdAt
+    updatedAt
+  }
+}
+mutation CreateFuse(
+  $input: CreateFuseInput!
+  $condition: ModelFuseConditionInput
+) {
+  createFuse(input: $input, condition: $condition) {
+    id
+    active
+    label
+    type
+    fuseBox {
+      id
+      name
+      description
+      ownerId
+      rows
+      fuses {
+        id
+        active
+        label
+        type
+        createdAt
+        updatedAt
+      }
+      createdAt
+      updatedAt
+    }
+    createdAt
+    updatedAt
+  }
+}
+mutation UpdateFuse(
+  $input: UpdateFuseInput!
+  $condition: ModelFuseConditionInput
+) {
+  updateFuse(input: $input, condition: $condition) {
+    id
+    active
+    label
+    type
+    fuseBox {
+      id
+      name
+      description
+      ownerId
+      rows
+      fuses {
+        id
+        active
+        label
+        type
+        createdAt
+        updatedAt
+      }
+      createdAt
+      updatedAt
+    }
+    createdAt
+    updatedAt
+  }
+}
+mutation DeleteFuse(
+  $input: DeleteFuseInput!
+  $condition: ModelFuseConditionInput
+) {
+  deleteFuse(input: $input, condition: $condition) {
+    id
+    active
+    label
+    type
+    fuseBox {
+      id
+      name
+      description
+      ownerId
+      rows
+      fuses {
+        id
+        active
+        label
+        type
+        createdAt
+        updatedAt
+      }
+      createdAt
+      updatedAt
+    }
+    createdAt
+    updatedAt
+  }
+}

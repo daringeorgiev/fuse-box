@@ -1,0 +1,16 @@
+type FuseBox @model {
+  id: ID!
+  name: String!
+  description: String
+  ownerId: String!
+  rows: Int
+  fuses: [Fuse!]
+}
+
+type Fuse @model {
+  id: ID!
+  active: Boolean
+  label: String!
+  type: String
+  fuseBox: FuseBox!
+}

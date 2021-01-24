@@ -6,7 +6,7 @@ export interface IFuseBox {
   id?: string;
   description?: string;
   ownerId?: string;
-  rows?: string;
+  rows?: number;
 }
 
 export default class FuseBox implements IFuseBox {
@@ -15,7 +15,7 @@ export default class FuseBox implements IFuseBox {
   public id?: string | undefined;
   public description?: string;
   public ownerId?: string;
-  public rows?: string;
+  public rows?: number;
 
   constructor(data: IFuseBox) {
     this.id = data.id;

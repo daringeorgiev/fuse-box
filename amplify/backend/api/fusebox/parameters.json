@@ -1,0 +1,11 @@
+{
+  "AppSyncApiName": "fusebox",
+  "DynamoDBBillingMode": "PAY_PER_REQUEST",
+  "DynamoDBEnableServerSideEncryption": false,
+  "AuthCognitoUserPoolId": {
+    "Fn::GetAtt": [
+      "authfusebox",
+      "Outputs.UserPoolId"
+    ]
+  }
+}

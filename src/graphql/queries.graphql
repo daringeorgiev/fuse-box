@@ -1,0 +1,108 @@
+# this is an auto generated file. This will be overwritten
+query GetFuseBox($id: ID!) {
+  getFuseBox(id: $id) {
+    id
+    name
+    description
+    ownerId
+    rows
+    fuses {
+      id
+      active
+      label
+      type
+      fuseBox {
+        id
+        name
+        description
+        ownerId
+        rows
+        createdAt
+        updatedAt
+      }
+      createdAt
+      updatedAt
+    }
+    createdAt
+    updatedAt
+  }
+}
+query ListFuseBoxs(
+  $filter: ModelFuseBoxFilterInput
+  $limit: Int
+  $nextToken: String
+) {
+  listFuseBoxs(filter: $filter, limit: $limit, nextToken: $nextToken) {
+    items {
+      id
+      name
+      description
+      ownerId
+      rows
+      fuses {
+        id
+        active
+        label
+        type
+        createdAt
+        updatedAt
+      }
+      createdAt
+      updatedAt
+    }
+    nextToken
+  }
+}
+query GetFuse($id: ID!) {
+  getFuse(id: $id) {
+    id
+    active
+    label
+    type
+    fuseBox {
+      id
+      name
+      description
+      ownerId
+      rows
+      fuses {
+        id
+        active
+        label
+        type
+        createdAt
+        updatedAt
+      }
+      createdAt
+      updatedAt
+    }
+    createdAt
+    updatedAt
+  }
+}
+query ListFuses(
+  $filter: ModelFuseFilterInput
+  $limit: Int
+  $nextToken: String
+) {
+  listFuses(filter: $filter, limit: $limit, nextToken: $nextToken) {
+    items {
+      id
+      active
+      label
+      type
+      fuseBox {
+        id
+        name
+        description
+        ownerId
+        rows
+        createdAt
+        updatedAt
+      }
+      createdAt
+      updatedAt
+    }
+    nextToken
+  }
+}

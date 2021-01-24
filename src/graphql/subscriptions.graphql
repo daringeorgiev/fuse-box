@@ -1,0 +1,166 @@
+# this is an auto generated file. This will be overwritten
+subscription OnCreateFuseBox {
+  onCreateFuseBox {
+    id
+    name
+    description
+    ownerId
+    rows
+    fuses {
+      id
+      active
+      label
+      type
+      fuseBox {
+        id
+        name
+        description
+        ownerId
+        rows
+        createdAt
+        updatedAt
+      }
+      createdAt
+      updatedAt
+    }
+    createdAt
+    updatedAt
+  }
+}
+subscription OnUpdateFuseBox {
+  onUpdateFuseBox {
+    id
+    name
+    description
+    ownerId
+    rows
+    fuses {
+      id
+      active
+      label
+      type
+      fuseBox {
+        id
+        name
+        description
+        ownerId
+        rows
+        createdAt
+        updatedAt
+      }
+      createdAt
+      updatedAt
+    }
+    createdAt
+    updatedAt
+  }
+}
+subscription OnDeleteFuseBox {
+  onDeleteFuseBox {
+    id
+    name
+    description
+    ownerId
+    rows
+    fuses {
+      id
+      active
+      label
+      type
+      fuseBox {
+        id
+        name
+        description
+        ownerId
+        rows
+        createdAt
+        updatedAt
+      }
+      createdAt
+      updatedAt
+    }
+    createdAt
+    updatedAt
+  }
+}
+subscription OnCreateFuse {
+  onCreateFuse {
+    id
+    active
+    label
+    type
+    fuseBox {
+      id
+      name
+      description
+      ownerId
+      rows
+      fuses {
+        id
+        active
+        label
+        type
+        createdAt
+        updatedAt
+      }
+      createdAt
+      updatedAt
+    }
+    createdAt
+    updatedAt
+  }
+}
+subscription OnUpdateFuse {
+  onUpdateFuse {
+    id
+    active
+    label
+    type
+    fuseBox {
+      id
+      name
+      description
+      ownerId
+      rows
+      fuses {
+        id
+        active
+        label
+        type
+        createdAt
+        updatedAt
+      }
+      createdAt
+      updatedAt
+    }
+    createdAt
+    updatedAt
+  }
+}
+subscription OnDeleteFuse {
+  onDeleteFuse {
+    id
+    active
+    label
+    type
+    fuseBox {
+      id
+      name
+      description
+      ownerId
+      rows
+      fuses {
+        id
+        active
+        label
+        type
+        createdAt
+        updatedAt
+      }
+      createdAt
+      updatedAt
+    }
+    createdAt
+    updatedAt
+  }
+}
