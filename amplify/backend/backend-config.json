@@ -23,5 +23,12 @@
         }
       }
     }
+  },
+  "function": {
+    "fusebox1a11dfb3": {
+      "build": true,
+      "providerPlugin": "awscloudformation",
+      "service": "Lambda"
+    }
   }
 }
